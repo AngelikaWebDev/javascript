@@ -1,6 +1,6 @@
 # 👩🏻‍🎓Curso JavaScript
 
-<a href="https://campus.open-bootcamp.com/"><img width="100" height="100" src="https://github.com/AngelikaWebDev/icons/blob/main/students/open-bootcamp-fondo.svg" alt="logo-OpenBootcamp "></a>
+<a href="https://campus.open-bootcamp.com/"><img width="100" height="100" src="https://github.com/AngelikaWebDev/icons/blob/main/students/open-bootcamp-fondo.svg" alt="logo-OpenBootcamp"></a>
 
 <p>Los ejercicios que contiene este repositorio pertenecen al Bootcamp que he realizado en OpenBootcamp</p>
 
