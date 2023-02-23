@@ -1,20 +1,21 @@
-//Crea un archivo JS que contenga las siguientes líneas
+//Create a JS file containing the following lines
 
-//Una función sin parámetros que devuelva siempre "true"
-function siempreTrue(){
+//A parameterless function that always returns "true"
+function alwaysTrue(){
     return true
 }
-siempreTrue();
-//Una función asíncrona que utilice un setTimeout y pase por consola un "Hola soy una promesa" 5 segundos después de haberse ejecutado
-async function promesa() {
-  await new Promise(resolve => setTimeout(resolve, 5000));
-  console.log("Hola soy una promesa");
-}
-promesa();
+alwaysTrue();
 
-//Una función generadora de índices pares automáticos
-function par(){
+//An asynchronous function that uses a setTimeout and passes a "Hello, I'm a promise" to the console 5 seconds after being executed
+async function promise() {
+  await new Promise(resolve => setTimeout(resolve, 5000));
+  console.log("Hi I am a promise");
+}
+promisa();
+
+//An automatic even index generator function
+function even(){
     for(i = 0; i <= 20 ; i += 2)
     console.log(i)
 }
-par();
+even();
