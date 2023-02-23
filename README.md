@@ -12,8 +12,8 @@
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/sintaxis">Sintaxis, variables y palabras</a></li>
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/estructuras-de-control">Estructuras de control</a></li>
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/cadena-de-texto">Cadenas de texto</a></li>
-  <li><a href="">Números</a></li>
-  <li><a href="">Listas</a></li>
+  <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/numeros">Números</a></li>
+  <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/listas">Listas</a></li>
   <li><a href="">Sets y Objetos</a></li>
   <li><a href="">Funciones</a></li>
   <li><a href="">Gestión de errores</a></li>
