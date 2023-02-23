@@ -1,82 +1,82 @@
-//Crea un archivo JS que contenga las siguientes líneas
+//Create a JS file containing the following lines
 
-//Una variable que contenga la lista de la compra (mínimo 5 elementos)
-listaCompra = ["pan","leche","huevos","cereales","naranjas"]
+//A variable that contains the shopping list (minimum 5 elements)
+shoppingList = ["bread","milk","eggs","cereals","oranges"]
 
-//Modifica la lista de la compra y añádele "Aceite de Girasol"
-listaCompra.push("Aceite de Girasol")
+//Modify the shopping list and add "Sunflower Oil"
+shoppingList.push("Sunflower Oil")
 
-//Vuelve a modificar la lista de la compra eliminando "Aceite de Girasol"
-listaCompra.pop()
+//Modify the shopping list again by removing "Sunflower Oil"
+shoppingList.pop()
 
-//Una lista de tus 3 películas favoritas (objetos con propiedades: titulo, director, fecha)
-peliculasFavoritas = [
+//A list of your 3 favorite movies (objects with properties: title, director, date)
+favoriteMovies = [
     {
-        titulo: "Big Fish",
+        title: "Big Fish",
         director: "Tim Burton",
-        fecha: "05/03/2004"
+        date: "05/03/2004"
     },
     {
-        titulo: "El Club de la Lucha",
+        title: "El Club de la Lucha",
         director: "David Fincher",
-        fecha: "05/11/1999"
+        date: "05/11/1999"
     },
     {
-        titulo: "La Fiera de Mi Niña",
+        title: "La Fiera de Mi Niña",
         director: "Howard Hawks",
-        fecha: "11/12/1940"
+        date: "11/12/1940"
     }
 ];
 
-//Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)
-peliculas = [
+//A new list containing movies after January 1, 2010 (using filter)
+movies = [
     { 
-        titulo: "Big Fish", 
+        title: "Big Fish", 
         director: "Tim Burton", 
-        fecha: "05/03/2004" 
+        date: "05/03/2004" 
     },
     { 
-        titulo: "El Club de la Lucha", 
+        title: "El Club de la Lucha", 
         director: "David Fincher", 
-        fecha: "05/11/1999" 
+        date: "05/11/1999" 
     },
     { 
-        titulo: "Toy Story 3", 
+        title: "Toy Story 3", 
         director: "Lee Unkrich", 
-        fecha: "18/06/2010" 
+        date: "18/06/2010" 
     },
     { 
-        titulo: "Inception", 
+        title: "Inception", 
         director: "Christopher Nolan", 
-        fecha: "22/07/2010" 
+        date: "22/07/2010" 
     },
     { 
-        titulo: "La La Land", 
+        title: "La La Land", 
         director: "Damien Chazelle", 
-        fecha: "25/12/2016" 
+        date: "25/12/2016" 
     }
   ];
 
-  fechaLimite = new Date("2010-01-01");
+  limitDate = new Date("2010-01-01");
 
-  peliculasPosteriores = peliculas.filter(function(pelicula) {
-    let fechaPelicula = new Date(pelicula.fecha);
-    return fechaPelicula > fechaLimite;
+  postMovies = movies.filter(function(movie) {
+    let movieDate = new Date(movie.date);
+    return movieDate > limitDate;
   });
 
-  //Una nueva lista que contenga los directores de la lista de películas original (utilizando map)
-  directores = peliculasFavoritas.map(function(pelicula) {
-    return pelicula.director;
+  //A new list containing the directors from the original movie list (using map)
+  directors = favoriteMovies.map(function(movie) {
+    return movie.director;
   });
 
-  //Una nueva lista que contenga los títulos de la lista de películas original (utilizando map)
-  titulos = peliculasFavoritas.map(function(pelicula){
-    return pelicula.titulo;
+  //A new list containing the titles of the original movie list (using map)
+  titles = favoriteMovies.map(function(movie){
+    return movie.title;
   });
 
-  //Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando concat)
-  titulosYDirectoresConcat = titulos.concat(directores);
+  //A new list that concatenates the list of directors and the list of titles (using concat)
+  titlesAndDirectorsConcat = titles.concat(directors);
 
-  //Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación)
-  titulosDirectoresProp = [...titulos, ...directores];
+  //A new list concatenating the list of directors and the list of titles (using the spread factor)
+  titlesAndDirectorsSpread = [...titles, ...directors];
 
