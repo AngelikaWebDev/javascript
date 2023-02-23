@@ -16,7 +16,7 @@
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/numeros">Números</a></li>
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/listas">Listas</a></li>
   <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/sets">Sets y Objetos</a></li>
-  <li><a href="">Funciones</a></li>
+  <li><a href="https://github.com/AngelikaWebDev/javascript/tree/main/funciones">Funciones</a></li>
   <li><a href="">Gestión de errores</a></li>
   <li><a href="">Modulos</a></li>
   <li><a href="">POO</a></li>
