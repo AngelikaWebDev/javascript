@@ -1,4 +1,4 @@
-//Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
+//This file should calculate the factorial of 10 using a single for loop
 
 let factorial = 1;
 
