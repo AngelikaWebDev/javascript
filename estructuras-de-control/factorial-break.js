@@ -1,4 +1,4 @@
-//Este archivo debe calcular el factorial de 10 utilizando un bucle while, una bifurcación if y una sentencia break
+//This file should compute the factorial of 10 using a while loop, an if branch, and a break statement.
 
 let num = 10;
 let factorial = 1;
