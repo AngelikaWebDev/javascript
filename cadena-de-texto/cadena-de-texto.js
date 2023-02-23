@@ -1,32 +1,31 @@
-//Crea un archivo JS que contenga las siguiente líneas
+//Create a JS file containing the following lines
 
+//String with your name
+name = "Angelika";
 
-// Cadena de texto con tu nombre
-nombre = "Angelika";
+//String with your last name
+lastname = "Chozas";
 
-//Cadena de texto con tu apellido
-apellido = "Chozas";
+//String called "student" concatenating your first and last name with a space in between
+student = name + " " + lastname;
 
-//Cadena de texto que se llame "estudiante" concatenando tu nombre y tu apellido con un espacio entre medias
-estudiante = nombre + " " + apellido;
+//String called "studentUppercase" containing the string student but all uppercase
+studentUppercase = student.upperCase();
 
-//Una cadena de texto que se llame "estudianteMayus" que contenga la cadena estudiante pero todo en mayúsculas
-estudianteMayus = estudiante.upperCase();
+//String called "studentLowercase" containing the string student but all uppercase
+studentLowercase = student.toLowerCase();
 
-//Una cadena de texto que se llame "estudianteMinus" que contenga la cadena estudiante pero todo en minúsculas
-estudianteMinus = estudiante.toLowerCase();
+//A variable that holds the number of letters in the string "student" counting the spaces
+stringStudent = student.lenght();
 
-//Una variable que contenga el número de letras de la cadena "estudiante" contando los espacios
-cadenaEstudiante = estudiante.lenght();
+//A variable containing the first letter of the ame
+firstLetter = name.charAt(0);
 
-//Una variable que contenga la primera letra del Nombre
-primeraLetra = nombre.charAt(0);
+//A variable containing the last letter of the LastName
+lastLetter = lastname.charAt(5);
 
-//Una variable que contenga la última letra del Apellido
-ultimaLetra = apellido.charAt(5);
+//A text string that removes spaces from the variable "student"
+removesSpaces = student.replace(/\s/g, "");
 
-//Una cadena de texto que elimine los espacios de la variable "estudiante"
-estudianteSinEspacios = estudiante.replace(/\s/g, "");
-
-//Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
-contieneNombre = estudiante.includes(nombre);
+//A boolean variable that tells if the Name is contained in the variable "student"
+containsName = student.includes(name);
